@@ -1,0 +1,118 @@
+<html>
+<div style="background-color:#00b3ff ">    
+    <h1><font color="white">高速神戸駅発</font></h1>
+    <h2><font color="white">阪急神戸三宮・西宮北口・大阪梅田方面時刻表(土日祝通学時)</font></h2>
+</div>
+<table border="5" bordercolor="#00b3ff">
+  <body>
+      <tr>
+          <td>
+      <p id="Clock1" style="display: inline"></p>
+<script type="text/javascript">
+setInterval('showClock1()',1000);
+function showClock1() {
+var DWs = new Array('日','月','火','水','木','金','土');
+var Now = new Date();
+var YY = Now.getYear();
+if (YY < 2000) { YY += 1900; }
+var MM = set0( Now.getMonth() + 1 );
+var DD = set0( Now.getDate() );
+var DW = DWs[ Now.getDay() ];
+var hh = set0( Now.getHours() );
+var mm = set0( Now.getMinutes() );
+var ss = set0( Now.getSeconds() );
+var RTime1 ='現在時刻は' + hh + '時' + mm + '分' + ss + '秒';
+document.getElementById("Clock1").innerHTML = RTime1;
+}
+function set0(num) {
+var ret;
+if( num < 10 ) { ret = "0" + num; }
+else { ret = num; }
+return ret;
+}
+</script>
+          </td>
+      </tr>
+</body>
+</table>
+<table border="1">
+  <tr>
+    <td>　5:55　<span style="background-color:#ffff33"><span style="color:#000">快速急行</span></span>　大阪梅田</td>
+    <td>6:05　六甲駅着</td>
+  </tr>
+  <tr>
+    <td>※6:02　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　大阪梅田</td>
+    <td>6:13　六甲駅着</td>
+</tr>
+  <tr>
+    <td>　6:10　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+    <td>6:28　六甲駅着（六甲駅へは後の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗車）</td>
+  </tr>
+  <tr>
+    <td>　6:17　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　大阪梅田</td>
+    <td>6:28　六甲駅着（六甲駅へは後の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗車）</td>
+</tr>
+<tr>
+    <td>　6:19　<span style="background-color:#000"><span style="color:#ff8c00">　普通　</span></span>　神戸三宮</span></span></td>
+    <td>6:39　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+    <td>　6:25　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+    <td>6:39　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　6:40　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>6:58　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　6:55　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>7:08　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　7:05　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>7:18　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　7:15　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>7:28　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　7:25　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>7:38　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　7:31　<span style="background-color:#000"><span style="color:#ff8c00">　普通　</span></span>　神戸三宮</span></span></td>
+  <td>7:48　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>※7:35　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>7:48　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　7:45　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>7:58　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　7:49　<span style="background-color:#000"><span style="color:#ff8c00">　普通　</span></span>　神戸三宮</span></span></td>
+  <td>8:08　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　7:55　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>8:08　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+<tr>
+  <td>　8:05　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　大阪梅田</td>
+  <td>8:18　六甲駅着（六甲駅へは神戸三宮で始発の<span style="background-color:#000"><span style="color:#fff">普通</span></span>に乗り換え）</td>
+</tr>
+</table>
+<table border="5"bordercolor="#00b3ff">
+<tr>
+  <td>※‥高速神戸駅始発の電車です。　　</td>
+</tr>
+</table>
+<table border="5" bordercolor="#00b3ff">
+  <tr>
+      <td><span style="background-color:#000"><span style="color:#ff8c00">　普通　</span></span>は山陽線直通の電車です。</td>
+  </tr>
+</table>
+</html>
